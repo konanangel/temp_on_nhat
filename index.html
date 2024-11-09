@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <style>
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .section h2 {
+            cursor: pointer;
+            color: #0066cc;
+        }
+        .section-content {
+            display: none;
+            margin-top: 10px;
+        }
+        .play-button {
+            margin-left: 10px;
+            cursor: pointer;
+            color: #0066cc;
+            background-color: #f0f0f0;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="section" id="bai4">
+    <h2 onclick="toggleSection('bai4-content')">Bài 4</h2>
+    <div class="section-content" id="bai4-content">
+        <p>Câu 1 <button class="play-button" onclick="playAudio('audio/bai4/1.mp3')">Phát</button></p>
+        <p>Câu 2 <button class="play-button" onclick="playAudio('audio/bai4/2.mp3')">Phát</button></p>
+        <p>Câu 3.1 <button class="play-button" onclick="playAudio('audio/bai4/3_1.mp3')">Phát</button></p>
+        <p>Câu 3.2 <button class="play-button" onclick="playAudio('audio/bai4/3_2.mp3')">Phát</button></p>
+        <p>Câu 6 <button class="play-button" onclick="playAudio('audio/bai4/6.mp3')">Phát</button></p>
+        <p>Câu 8.1 <button class="play-button" onclick="playAudio('audio/bai4/8_1.mp3')">Phát</button></p>
+        <p>Câu 8.2 <button class="play-button" onclick="playAudio('audio/bai4/8_2.mp3')">Phát</button></p>
+    </div>
+</div>
+
+<div class="section" id="bai5">
+    <h2 onclick="toggleSection('bai5-content')">Bài 5</h2>
+    <div class="section-content" id="bai5-content">
+        <p>Câu 1.1 <button class="play-button" onclick="playAudio('audio/bai5/1_1.mp3')">Phát</button></p>
+        <p>Câu 1.2 <button class="play-button" onclick="playAudio('audio/bai5/1_2.mp3')">Phát</button></p>
+        <p>Câu 2 <button class="play-button" onclick="playAudio('audio/bai5/2.mp3')">Phát</button></p>
+        <p>Câu 3 <button class="play-button" onclick="playAudio('audio/bai5/3.mp3')">Phát</button></p>
+        <p>Câu 4 <button class="play-button" onclick="playAudio('audio/bai5/4.mp3')">Phát</button></p>
+        <p>Câu 6 <button class="play-button" onclick="playAudio('audio/bai5/6.mp3')">Phát</button></p>
+        <p>Câu 8 <button class="play-button" onclick="playAudio('audio/bai5/8.mp3')">Phát</button></p>
+    </div>
+</div>
+
+<div class="section" id="bai6">
+    <h2 onclick="toggleSection('bai6-content')">Bài 6</h2>
+    <div class="section-content" id="bai6-content">
+        <p>Câu 1 <button class="play-button" onclick="playAudio('audio/bai6/1.mp3')">Phát</button></p>
+        <p>Câu 2 <button class="play-button" onclick="playAudio('audio/bai6/2.mp3')">Phát</button></p>
+        <p>Câu 3 <button class="play-button" onclick="playAudio('audio/bai6/3.mp3')">Phát</button></p>
+        <p>Câu 5 <button class="play-button" onclick="playAudio('audio/bai6/5.mp3')">Phát</button></p>
+        <p>Câu 6 <button class="play-button" onclick="playAudio('audio/bai6/6.mp3')">Phát</button></p>
+        <p>Câu 7 <button class="play-button" onclick="playAudio('audio/bai6/7.mp3')">Phát</button></p>
+        <p>Câu 8 <button class="play-button" onclick="playAudio('audio/bai6/8.mp3')">Phát</button></p>
+    </div>
+</div>
+
+<div class="section" id="bai7">
+    <h2 onclick="toggleSection('bai7-content')">Bài 7</h2>
+    <div class="section-content" id="bai7-content">
+        <p>Câu 1 <button class="play-button" onclick="playAudio('audio/bai7/1.mp3')">Phát</button></p>
+        <p>Câu 2.1 <button class="play-button" onclick="playAudio('audio/bai7/2_1.mp3')">Phát</button></p>
+        <p>Câu 2.2 <button class="play-button" onclick="playAudio('audio/bai7/2_2.mp3')">Phát</button></p>
+        <p>Câu 3 <button class="play-button" onclick="playAudio('audio/bai7/3.mp3')">Phát</button></p>
+        <p>Câu 4 <button class="play-button" onclick="playAudio('audio/bai7/4.mp3')">Phát</button></p>
+        <p>Câu 5.1 <button class="play-button" onclick="playAudio('audio/bai7/5_1.mp3')">Phát</button></p>
+        <p>Câu 5.2 <button class="play-button" onclick="playAudio('audio/bai7/5_2.mp3')">Phát</button></p>
+        <p>Câu 6 <button class="play-button" onclick="playAudio('audio/bai7/6.mp3')">Phát</button></p>
+        <p>Câu 7.1 <button class="play-button" onclick="playAudio('audio/bai7/7_1.mp3')">Phát</button></p>
+        <p>Câu 7.2 <button class="play-button" onclick="playAudio('audio/bai7/7_2.mp3')">Phát</button></p>
+        <p>Câu 8 <button class="play-button" onclick="playAudio('audio/bai7/8.mp3')">Phát</button></p>
+        <p>Câu 9 <button class="play-button" onclick="playAudio('audio/bai7/9.mp3')">Phát</button></p>
+    </div>
+</div>
+
+<script>
+    function toggleSection(sectionId) {
+        const content = document.getElementById(sectionId);
+        content.style.display = content.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function playAudio(file) {
+        const audio = new Audio(file);
+        audio.play();
+    }
+</script>
+
+</body>
+</html>
