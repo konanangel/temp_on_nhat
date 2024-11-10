@@ -100,6 +100,61 @@
         audio.play();
     }
 </script>
+<script>
+    async function loadQuestions() {
+        try {
+            const response = await fetch('audio/data.json');
+            const data = await response.json();
+
+            // Chèn câu hỏi vào Bài 4
+            document.querySelector("#bai4-content p:nth-child(1)").insertAdjacentText("afterbegin", data.Bai4["1"] + ": ");
+            document.querySelector("#bai4-content p:nth-child(2)").insertAdjacentText("afterbegin", data.Bai4["2"] + ": ");
+            document.querySelector("#bai4-content p:nth-child(3)").insertAdjacentText("afterbegin", data.Bai4["3.1"] + ": ");
+            document.querySelector("#bai4-content p:nth-child(4)").insertAdjacentText("afterbegin", data.Bai4["3.2"] + ": ");
+            document.querySelector("#bai4-content p:nth-child(5)").insertAdjacentText("afterbegin", data.Bai4["6"] + ": ");
+            document.querySelector("#bai4-content p:nth-child(6)").insertAdjacentText("afterbegin", data.Bai4["8.1"] + ": ");
+            document.querySelector("#bai4-content p:nth-child(7)").insertAdjacentText("afterbegin", data.Bai4["8.2"] + ": ");
+
+            // Chèn câu hỏi vào Bài 5
+            document.querySelector("#bai5-content p:nth-child(1)").insertAdjacentText("afterbegin", data.Bai5["1.1"] + ": ");
+            document.querySelector("#bai5-content p:nth-child(2)").insertAdjacentText("afterbegin", data.Bai5["1.2"] + ": ");
+            document.querySelector("#bai5-content p:nth-child(3)").insertAdjacentText("afterbegin", data.Bai5["2"] + ": ");
+            document.querySelector("#bai5-content p:nth-child(4)").insertAdjacentText("afterbegin", data.Bai5["3"] + ": ");
+            document.querySelector("#bai5-content p:nth-child(5)").insertAdjacentText("afterbegin", data.Bai5["4"] + ": ");
+            document.querySelector("#bai5-content p:nth-child(6)").insertAdjacentText("afterbegin", data.Bai5["6"] + ": ");
+            document.querySelector("#bai5-content p:nth-child(7)").insertAdjacentText("afterbegin", data.Bai5["8"] + ": ");
+
+            // Chèn câu hỏi vào Bài 6
+            document.querySelector("#bai6-content p:nth-child(1)").insertAdjacentText("afterbegin", data.Bai6["1"] + ": ");
+            document.querySelector("#bai6-content p:nth-child(2)").insertAdjacentText("afterbegin", data.Bai6["2"] + ": ");
+            document.querySelector("#bai6-content p:nth-child(3)").insertAdjacentText("afterbegin", data.Bai6["3"] + ": ");
+            document.querySelector("#bai6-content p:nth-child(4)").insertAdjacentText("afterbegin", data.Bai6["5"] + ": ");
+            document.querySelector("#bai6-content p:nth-child(5)").insertAdjacentText("afterbegin", data.Bai6["6"] + ": ");
+            document.querySelector("#bai6-content p:nth-child(6)").insertAdjacentText("afterbegin", data.Bai6["7"] + ": ");
+            document.querySelector("#bai6-content p:nth-child(7)").insertAdjacentText("afterbegin", data.Bai6["8"] + ": ");
+
+            // Chèn câu hỏi vào Bài 7
+            document.querySelector("#bai7-content p:nth-child(1)").insertAdjacentText("afterbegin", data.Bai7["1"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(2)").insertAdjacentText("afterbegin", data.Bai7["2.1"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(3)").insertAdjacentText("afterbegin", data.Bai7["2.2"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(4)").insertAdjacentText("afterbegin", data.Bai7["3"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(5)").insertAdjacentText("afterbegin", data.Bai7["4"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(6)").insertAdjacentText("afterbegin", data.Bai7["5.1"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(7)").insertAdjacentText("afterbegin", data.Bai7["5.2"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(8)").insertAdjacentText("afterbegin", data.Bai7["6"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(9)").insertAdjacentText("afterbegin", data.Bai7["7.1"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(10)").insertAdjacentText("afterbegin", data.Bai7["7.2"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(11)").insertAdjacentText("afterbegin", data.Bai7["8"] + ": ");
+            document.querySelector("#bai7-content p:nth-child(12)").insertAdjacentText("afterbegin", data.Bai7["9"] + ": ");
+
+        } catch (error) {
+            console.error("Không thể tải câu hỏi từ file JSON", error);
+        }
+    }
+
+    loadQuestions();
+</script>
+
 
 </body>
 </html>

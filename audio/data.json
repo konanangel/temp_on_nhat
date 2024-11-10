@@ -1,0 +1,44 @@
+{
+    "Bai4": {
+      "1": "Nam san no machi kara FPT daigaku made dono kurai desu ka?",
+      "2": "Nam san no uchi kara FPT daigaku made kuruma de dono kurai desu ka?",
+      "3.1": "Nam san no machi wa donna tokoro desuka?",
+      "3.2": "FPT daigaku wa donna daigaku desuka?",
+      "6": "Nam san no machi wa nigiyaka desuka?",
+      "8.1": "Nam san no machi ni kyoukai ga arimasu ka?",
+      "8.2": "Nam san no machi ni otera ga arimasu ka?"
+    },
+    "Bai5": {
+      "1.1": "Kinou Nam san wa nani wo shimashita ka?",
+      "1.2": "Senshuu Nam san wa nani wo shimashita ka?",
+      "2": "Kinou doko e ikimashita ka?",
+      "3": "Senshuu, Nam san wa dare to ikimashita ka?",
+      "4": "Nam san wa kinou doushite gakkoo ikimasen deshita ka?",
+      "6": "Ima, Nam san wa nani ga ichiban hoshii desu ka?",
+      "8": "Nam san wa ashita nani o shi ni ikimasu ka?"
+    },
+    "Bai6": {
+      "1": "Konban, isshoni benkyoushimasen ka?",
+      "2": "FPT daigaku de nani ga arimasu ka?",
+      "3": "Hanoi de nani ga ichiban ooki desuka?",
+      "5": "Hanoi wa doko ga ichiban ooki desuka?",
+      "6": "VN de nangatsu ga ichiban samui desuka?",
+      "7": "Hanoi to Danang to dochira ooi desuka?",
+      "8": "Mou Danang ni ikimashita ka?"
+    },
+    "Bai7": {
+      "1": "Nam san no uchi wa doko ni arimasu ka?",
+      "2.1": "Nam san wa doko imasu ka?",
+      "2.2": "Neko wa doko imasu ka?",
+      "3": "FPT daigaku no chikaku ni nani ga arimasu ka?",
+      "4": "Nam san no uchi no chikaku ni nani ga arimasu ka?",
+      "5.1": "Nande pan wo kirimasu ka?",
+      "5.2": "Nande yasui wo kirimasu ka?",
+      "6": "Betonamu jin wa fooku to naifu de gohan wo tabemasu ka?",
+      "7.1": "Betonamu jin wa nande gohan wo tabemasu ka?",
+      "7.2": "Amerika jin wa nande gohan wo tabemasu ka?",
+      "8": "Nam san wa nani wo shite imasu ka?",
+      "9": "Dare ga benkyoushite imasu ka?"
+    }
+  }
+  
